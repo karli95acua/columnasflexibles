@@ -1,0 +1,70 @@
+.row {
+    display: flex; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.col {
+    background-color: #FFCCFF;
+    flex-direction: column;
+    flex: 4;
+    margin: 30px 30px 30px 30px;
+    height: 25px;
+    padding: 30px;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.row2 .col {
+    background-color: #FFCCFF;
+    flex-direction: column;
+    margin: 30px;
+    height: 25px;
+    padding: 30px;
+    align-items: center;
+    flex: 1;
+}
+
+.row2 .col-2 {
+    background-color: #FFCCFF;
+    flex-direction: column;
+    margin: 30px;
+    height: 25px;
+    padding: 30px;
+    align-items: center;
+    flex: 2;
+}
+
+.row3 {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.row3 .col-2 {
+    background-color: #FFCCFF;
+    flex-direction: column;
+    margin: 30px;
+    height: 25px;
+    padding: 30px;
+    align-items: center;
+    flex: 2;
+}
+
+.row3 .col-3 {
+    background-color: #FFCCFF;
+    flex-direction: column;
+    margin: 30px;
+    height: 25px;
+    padding: 30px;
+    align-items: center;
+    flex: 3;
+}
